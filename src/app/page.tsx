@@ -1,6 +1,6 @@
 import Contact from "@/lib/components/Contact";
 import Gamedev from "@/lib/components/Gamedev";
-import Navigation from "@/lib/components/Navigation";
+import Navigation from "@/lib/components/Navigation/Navigation";
 import Webdev from "@/lib/components/Webdev";
 import Welcome from "@/lib/components/Welcome";
 
