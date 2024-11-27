@@ -1,31 +1,20 @@
 .header {
-    padding-top: var(--mantine-spacing-sm);
-    background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
-    border-bottom: 1px solid light-dark(var(--mantine-color-gray-2), transparent);
-    margin-bottom: 120px;
+    /* background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6)); */
+    /* background-color: light-dark((linear-gradient(0deg, rgba(37,49,95,1) 0%, rgba(144,161,228,1) 100%)), (linear-gradient(0deg, rgba(37,49,95,1) 0%, rgba(28,1,55,1) 100%))); */
+    background: linear-gradient(0deg, rgba(37,49,95,0.1) 0%, rgba(28,1,55,0.5) 100%);
+    transition: ease-in-out 1.15s;
+    &:hover{
+        /* color: linear-gradient(0deg, rgba(238,144,9,1) 0%, rgba(225,99,0,1) 53%, rgba(233,187,61,1) 92%); */
+        color: gold;
+        font-weight: bold;
+        font-family: sans-serif;
+        background: linear-gradient(0deg, rgba(37,49,95,0.35) 0%, rgba(28,1,55,0.85) 100%);
+        /* transition: ease-in-out 2.35s; */
+    }
   }
   
   .mainSection {
     padding-bottom: var(--mantine-spacing-sm);
-  }
-  
-  .user {
-    color: light-dark(var(--mantine-color-black), var(--mantine-color-dark-0));
-    padding: var(--mantine-spacing-xs) var(--mantine-spacing-sm);
-    border-radius: var(--mantine-radius-sm);
-    transition: background-color 100ms ease;
-  
-    &:hover {
-      background-color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-8));
-    }
-  
-    @media (max-width:  mantine-breakpoint-xs) {
-      display: none;
-    }
-  }
-  
-  .userActive {
-    background-color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-8));
   }
   
   .tabsList {
