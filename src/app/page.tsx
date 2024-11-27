@@ -6,7 +6,7 @@ import Welcome from "@/lib/components/Welcome";
 
 export default function Home() {
   return (
-    <div className="grid grid-flow-row-dense items-center justify-items-center min-h-screen relative">
+    <div className="relative grid grid-flow-row-dense items-center justify-items-center min-h-screen h-max overflow-visible overscroll-none">
       <Navigation />
       <Welcome />
       <Webdev />

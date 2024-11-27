@@ -2,7 +2,8 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div id='contact'>
+    <div id='contact'
+    className='transition ease-in-out duration-700 justify-center text-center bg-slate-500 bg-opacity-15 hover:bg-opacity-35 px-10 py-8 my-4 rounded-full min-w-[90%]'>
       Contact Me
       <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur quam nec luctus aliquet. Integer nec purus imperdiet nulla rutrum congue. Proin luctus, lacus in finibus convallis, erat ligula facilisis diam, et iaculis eros metus nec tortor. Aenean sollicitudin laoreet sapien. Curabitur tempor gravida mauris, quis commodo metus dapibus ut. Vestibulum eleifend nisl in sollicitudin faucibus. Donec vitae enim vitae erat vehicula laoreet eu sed nibh. Curabitur tempor urna vitae dui tincidunt suscipit. Pellentesque sodales sodales tempor. Fusce quis lacinia elit. Sed commodo at turpis non euismod. Etiam eleifend sapien nec nisl sollicitudin lobortis. Morbi vel semper diam.
